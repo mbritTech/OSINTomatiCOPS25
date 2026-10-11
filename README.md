@@ -1,8 +1,5 @@
 # OSINTomatiCOPS25
 
-> [!WARNING]  
-> **Disponible** solamente durante esta **semana**
-
 Muy buenas a todos, bienvenidos al repositorio de mi ponencia 
 **"Ciberinteligencia y Programación, juntas para la acción"**.<br>
 [**Aquí**](OsintomátiCOPS%20España%202025.pdf) podéis encontrar las correspondientes diapositivas y 
@@ -21,6 +18,9 @@ algunas indicaciones para el correcto uso de los diferentes scripts.
 - Instalar la **librería** correspondiente para **Web Scraping**
 `pip install selenium`
 
+[**DEMO**](demos/demo-CNDES.mp4)
+
+
 ### Reverse Whois
 [**Script**](reverse-whois.py)
 - Simplemente es necesario modificar el **fichero de configuración**
@@ -31,6 +31,8 @@ con las claves personales de la **API**.
 para que posteriormente se realice la **comprobación** de estos
 con otro [**script**](ck-reverse-whois.sh) encargado de hacer un **whois** a cada uno ellos.
 
+[**DEMO**](demos/demo-reverse-whois.mp4)
+
 ### Reconocimiento de Imágenes
 [**Script Imagga**](imagga.py)<br>
 [**Script Everypixel**](everypixel.py)
@@ -39,6 +41,17 @@ con las claves personales de la **API**.
 - Tener instalada la **librería** para hacer **peticiones** a la **API**
 `pip install requests`
 - Tenéis unas **imágenes** de muestra en la siguiente [**carpeta**](imgs).
+
+[**DEMO**](demos/demo-images.mp4)
+
+### Investigaciones Alternativas
+Finalmente, en algunas ocasiones necesitamos encontrar otros puntos por los cuáles
+seguir una investigación. Estos dos recursos no ayudarán para esos momentos en los que
+necesitamos encontar si un nombre de usuario está presente en
+diferentes plataformas: [Blackbird](https://p1ngul1n0.gitbook.io/blackbird) y
+[WhatsMyName-Python](https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python).
+
+[**DEMO**](demos/demo-usernames.mp4)
 
 Espero que todo esto os sirva como punto de partida para 
 crear vuestras propias herramientas.<br>
